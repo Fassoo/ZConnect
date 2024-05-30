@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Footer alla fine della pagina</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+      min-height: 100vh; /* Imposta l'altezza minima del corpo al 100% dell'altezza della finestra del browser */
+      display: flex;
+      flex-direction: column;
+    }
+
+    .content {
+      flex: 1;
+      /* Aggiungi un margine inferiore per separare il contenuto dal footer */
+      margin-bottom: 60px; /* Regola a seconda dell'altezza del tuo footer */
+    }
+
+    .footer {
+      background-color: #f8f9fa;
+      padding: 20px 0;
+      text-align: center;
+      width: 100%;
+      position: relative; /* Cambiato in posizionamento relativo */
+      bottom: 0;
+    }
+  </style>
+</head>
+<body>
+
+<div class="content">
+  <!-- Contenuto della pagina -->
+</div>
+
+<footer class="footer">
+    <div class="container">
+        <span>ZConnect &copy; 2024</span>
+    </div>
+</footer>
+
+</body>
+</html>
